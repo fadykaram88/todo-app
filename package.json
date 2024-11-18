@@ -5,4 +5,8 @@
   "main": "index.js",
   "author": "Fady Karam",
   "license": "MIT"
+  "scripts": {
+  "test": "echo \"No test specified\" && exit 0"
+}
+
 }
