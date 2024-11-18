@@ -34,13 +34,3 @@ pipeline {
             }
         }
     }
-
-    post {
-        success {
-            slackSend(channel: '#your-channel', message: "Build succeeded!")
-        }
-        failure {
-            slackSend(channel: '#your-channel', message: "Build failed!")
-        }
-    }
-}
