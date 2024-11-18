@@ -8,6 +8,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/fadykaram88/todo-app.git'
             }
         }
+
         stage('Build Docker Image') {
             steps {
                 script {
@@ -16,6 +17,7 @@ pipeline {
                 }
             }
         }
+
         stage('Run Tests') {
             steps {
                 script {
@@ -25,6 +27,7 @@ pipeline {
                 }
             }
         }
+
         stage('Deploy') {
             steps {
                 script {
@@ -34,3 +37,4 @@ pipeline {
             }
         }
     }
+}
