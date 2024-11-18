@@ -4,9 +4,8 @@
   "description": "A simple Todo app",
   "main": "index.js",
   "author": "Fady Karam",
-  "license": "MIT"
+  "license": "MIT",
   "scripts": {
-  "test": "echo \"No test specified\" && exit 0"
-}
-
+    "test": "echo \"No test specified\" && exit 0"
+  }
 }
