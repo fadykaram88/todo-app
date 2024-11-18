@@ -32,7 +32,7 @@ pipeline {
             steps {
                 script {
                     // تشغيل Docker container
-                    sh 'docker run -d -p 3000:3000 todo-app'
+                    sh 'docker run -d -p 3005:3000 todo-app'
                 }
             }
         }
